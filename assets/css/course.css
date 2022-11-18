@@ -1,0 +1,42 @@
+.course{
+    color:#fff;
+    background: rgb(43, 43, 43);
+}
+.course .title::before{
+    background: #fff;
+}
+.course .title::after{
+    background: rgb(43, 43, 43);
+    content: "estudios y cursos realizados";
+}
+.course .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.course .serv-content .card:hover{
+    background: #b12f07;
+}
+.course .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.course .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.course .serv-content .card i{
+    font-size: 50px;
+    color: #b12f07;
+    transition: color 0.3s ease;
+}
+.course .serv-content .card:hover i{
+    color: #fff;
+}
+.course .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}

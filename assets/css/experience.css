@@ -1,0 +1,45 @@
+/* services section styling */
+.experience, .project{
+    color:#fff;
+    background: #111;
+}
+.experience .title::before,
+.project .title::before{
+    background: #fff;
+}
+.experience .title::after,
+.project .title::after{
+    background: #111;
+    content: "laboral y de otras actividades";
+}
+.experience .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.experience .serv-content .card:hover{
+    background: #b12f07;
+}
+.experience .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.experience .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.experience .serv-content .card i{
+    font-size: 50px;
+    color: #b12f07;
+    transition: color 0.3s ease;
+}
+.experience .serv-content .card:hover i{
+    color: #fff;
+}
+.experience .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
