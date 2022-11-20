@@ -1,0 +1,73 @@
+@media only screen and (max-width: 600px){
+    .header__title{
+        font-size: 19px;
+        width: 150px;
+    }
+    .header__nav .fa-solid{
+        display: block;
+        font-size: 25px;        
+    }
+
+    .header__list{
+        background: #be4f0e;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;     
+        z-index: 2;
+        transition: right 0.5s;   
+    }
+    .header__item{
+        display: block;
+        margin: 25px;        
+    }
+    .header__item a{
+        font-size: 16px;
+    }
+    .header__list .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .header__text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header__myname{
+        font-size: 30px;
+    }
+
+    .about__container-title, .services__container-title, .project__container-title, .contact__container-title {
+        font-size: 40px;
+    }
+
+    .about__container-col-1, .about__container-col-2{
+        flex-basis: 100%;
+    }
+
+    .about__container-col-1{
+        margin-bottom: 30px;
+    }
+
+    .about__container-col-2{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .about__container-tab-links{
+        font-size: 16px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .contact__container-left, .contact__container-right{
+        flex-basis: 100%;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}

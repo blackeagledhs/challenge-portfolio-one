@@ -1,0 +1,80 @@
+/*Header*/
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/avatar.png");
+    background-size: cover;
+    background-position: center;
+}
+  
+.header__container {
+    padding: 10px 10%;
+}
+  
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header__nav .fa-solid{
+    display: none;
+}
+  
+.header__title {
+    width: 350px;
+    font-size: 2.5rem;
+}
+  
+.header__capitalize {
+    color: #be4f0e;
+}
+.header__item {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+ 
+.header__item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.header__item a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #be4f0e;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.header__item a:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+}
+
+.header__text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header__myname{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header__myname span{
+    color: #be4f0e;
+}
+
+.typetext{
+    color: #be4f0e;
+    font-weight: 500;
+}
