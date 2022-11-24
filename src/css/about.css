@@ -22,6 +22,7 @@
     flex-basis: 60%;
 }
 
+
 .about__container-tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -64,4 +65,30 @@
 }
 .about__container-tab-contents.tab-active{
     display: block;
+}
+
+.icon__skill{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button__skill{
+    width: fixed;
+    background-color: #be4f0e;
+    border-radius: 15px 70px 15px 70px;
+    color: #fff;
+    border: 1px solid #be4f0e;
+    padding: 8px;
+}
+
+.button__skill:hover{
+    border-radius: 60px 15px 60px 24px;
+    background-color: #430b68;
+    border: 1px solid #430b68;
 }

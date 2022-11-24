@@ -51,8 +51,13 @@ body {
   filter: brightness(90%);
 }
 
-
-.about__container-title, .services__container-title, .project__container-title, .contact__container-title {
+.subtitle{
   font-size: 60px;
-    font-weight: 700;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px){
+  .subtitle {
+    font-size: 40px;
+  }
 }

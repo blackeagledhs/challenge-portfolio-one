@@ -40,7 +40,7 @@
         font-size: 30px;
     }
 
-    .about__container-title, .services__container-title, .project__container-title, .contact__container-title {
+    .subtitle {
         font-size: 40px;
     }
 

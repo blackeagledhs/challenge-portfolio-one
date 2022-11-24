@@ -4,6 +4,12 @@ const instance = new Typewriter('.typetext', {
     loop: true,
   });
 
+  const instance2 = new Typewriter('.typetext2', {
+    strings: ['Argentino', 'Español'],
+    autoStart: true,
+    loop: true,
+  });
+
 const tablinks = document.getElementsByClassName('about__container-tab-links');
 const tabcontents = document.getElementsByClassName('about__container-tab-contents');
 
