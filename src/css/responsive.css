@@ -44,6 +44,7 @@
         font-size: 40px;
     }
 
+    
     .about__container-col-1, .about__container-col-2{
         flex-basis: 100%;
     }

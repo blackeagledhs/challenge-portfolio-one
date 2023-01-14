@@ -72,8 +72,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 150px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     justify-content: space-between;
     align-items: center;
 }
